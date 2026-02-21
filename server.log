@@ -1,0 +1,14 @@
+
+> pos-sathi-server@1.0.0 dev
+> tsx watch src/index.ts
+
+2026-02-20 22:44:24 [[32minfo[39m]: 
+  ╔══════════════════════════════════════════════╗
+  ║           POS-SATHI Server Started           ║
+  ║──────────────────────────────────────────────║
+  ║  Environment: development                   ║
+  ║  Port:        5001                          ║
+  ║  API:         http://localhost:5001/api          ║
+  ║  WebSocket:   ws://localhost:5001             ║
+  ╚══════════════════════════════════════════════╝
+   {"service":"pos-sathi"}

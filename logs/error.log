@@ -1,0 +1,58 @@
+2026-02-20 21:19:00 [error]: TypeError: Do not know how to serialize a BigInt
+    at JSON.stringify (<anonymous>)
+    at stringify (/Users/sachin/Desktop/POS-SATHI/TTT/server/node_modules/express/lib/response.js:1160:12)
+    at ServerResponse.json (/Users/sachin/Desktop/POS-SATHI/TTT/server/node_modules/express/lib/response.js:271:14)
+    at <anonymous> (/Users/sachin/Desktop/POS-SATHI/TTT/server/src/routes/analytics.routes.ts:54:13) {"service":"pos-sathi"}
+2026-02-20 21:19:00 [error]: TypeError: Do not know how to serialize a BigInt
+    at JSON.stringify (<anonymous>)
+    at stringify (/Users/sachin/Desktop/POS-SATHI/TTT/server/node_modules/express/lib/response.js:1160:12)
+    at ServerResponse.json (/Users/sachin/Desktop/POS-SATHI/TTT/server/node_modules/express/lib/response.js:271:14)
+    at <anonymous> (/Users/sachin/Desktop/POS-SATHI/TTT/server/src/routes/analytics.routes.ts:54:13) {"service":"pos-sathi"}
+2026-02-21 07:55:06 [error]: [Cashfree] Order creation failed: {"service":"pos-sathi","status":401,"error":{"message":"authentication Failed","type":"authentication_error","code":"request_failed"}}
+2026-02-21 07:55:06 [error]: Payment session creation failed: Cashfree order creation failed: authentication Failed {"service":"pos-sathi"}
+2026-02-21 07:55:06 [error]: [PaymentCtrl] Create session error: Cashfree order creation failed: authentication Failed {"service":"pos-sathi"}
+2026-02-21 07:55:11 [error]: [Cashfree] Order creation failed: {"service":"pos-sathi","status":401,"error":{"type":"authentication_error","code":"request_failed","message":"authentication Failed"}}
+2026-02-21 07:55:11 [error]: Payment session creation failed: Cashfree order creation failed: authentication Failed {"service":"pos-sathi"}
+2026-02-21 07:55:11 [error]: [PaymentCtrl] Create session error: Cashfree order creation failed: authentication Failed {"service":"pos-sathi"}
+2026-02-21 08:06:54 [error]: [Cashfree] Order creation failed: {"service":"pos-sathi","status":401,"error":{"message":"authentication Failed","type":"authentication_error","code":"request_failed"}}
+2026-02-21 08:06:54 [error]: Payment session creation failed: Cashfree order creation failed: authentication Failed {"service":"pos-sathi"}
+2026-02-21 08:06:54 [error]: [PaymentCtrl] Create session error: Cashfree order creation failed: authentication Failed {"service":"pos-sathi"}
+2026-02-21 08:06:55 [error]: [Cashfree] Order creation failed: {"service":"pos-sathi","status":401,"error":{"message":"authentication Failed","type":"authentication_error","code":"request_failed"}}
+2026-02-21 08:06:55 [error]: Payment session creation failed: Cashfree order creation failed: authentication Failed {"service":"pos-sathi"}
+2026-02-21 08:06:55 [error]: [PaymentCtrl] Create session error: Cashfree order creation failed: authentication Failed {"service":"pos-sathi"}
+2026-02-21 08:06:56 [error]: [Cashfree] Order creation failed: {"service":"pos-sathi","status":401,"error":{"type":"authentication_error","code":"request_failed","message":"authentication Failed"}}
+2026-02-21 08:06:56 [error]: Payment session creation failed: Cashfree order creation failed: authentication Failed {"service":"pos-sathi"}
+2026-02-21 08:06:56 [error]: [PaymentCtrl] Create session error: Cashfree order creation failed: authentication Failed {"service":"pos-sathi"}
+2026-02-21 08:07:07 [error]: [Cashfree] Order creation failed: {"service":"pos-sathi","status":401,"error":{"message":"authentication Failed","type":"authentication_error","code":"request_failed"}}
+2026-02-21 08:07:07 [error]: Payment session creation failed: Cashfree order creation failed: authentication Failed {"service":"pos-sathi"}
+2026-02-21 08:07:07 [error]: [PaymentCtrl] Create session error: Cashfree order creation failed: authentication Failed {"service":"pos-sathi"}
+2026-02-21 08:08:38 [error]: [Cashfree] Order creation failed: {"service":"pos-sathi","status":403,"error":{"message":"Your IP address is not allowed"}}
+2026-02-21 08:08:38 [error]: Payment session creation failed: Cashfree order creation failed: Your IP address is not allowed {"service":"pos-sathi"}
+2026-02-21 08:08:38 [error]: [PaymentCtrl] Create session error: Cashfree order creation failed: Your IP address is not allowed {"service":"pos-sathi"}
+2026-02-21 08:10:54 [error]: [Cashfree] Order creation failed: {"service":"pos-sathi","status":403,"error":{"message":"Your IP address is not allowed"}}
+2026-02-21 08:10:54 [error]: Payment session creation failed: Cashfree order creation failed: Your IP address is not allowed {"service":"pos-sathi"}
+2026-02-21 08:10:54 [error]: [PaymentCtrl] Create session error: Cashfree order creation failed: Your IP address is not allowed {"service":"pos-sathi"}
+2026-02-21 08:12:41 [error]: [Cashfree] Order creation failed: {"service":"pos-sathi","status":403,"error":{"request_id":"e2915a2d114fae791ee051403d7e5418","message":"IP address not allowed: 152.58.123.135"}}
+2026-02-21 08:12:41 [error]: Payment session creation failed: Cashfree order creation failed: IP address not allowed: 152.58.123.135 {"service":"pos-sathi"}
+2026-02-21 08:12:41 [error]: [PaymentCtrl] Create session error: Cashfree order creation failed: IP address not allowed: 152.58.123.135 {"service":"pos-sathi"}
+2026-02-21 08:12:49 [error]: [Cashfree] Order creation failed: {"service":"pos-sathi","status":403,"error":{"message":"IP address not allowed: 152.58.123.135","request_id":"ce1da90712e43d3729067a3501ce721a"}}
+2026-02-21 08:12:49 [error]: Payment session creation failed: Cashfree order creation failed: IP address not allowed: 152.58.123.135 {"service":"pos-sathi"}
+2026-02-21 08:12:49 [error]: [PaymentCtrl] Create session error: Cashfree order creation failed: IP address not allowed: 152.58.123.135 {"service":"pos-sathi"}
+2026-02-21 08:16:52 [error]: [Cashfree] Order creation failed: {"service":"pos-sathi","status":403,"error":{"request_id":"8ae9d148755f9f20f88c755f2e1b0640","message":"IP address not allowed: 152.58.123.135"}}
+2026-02-21 08:16:52 [error]: Payment session creation failed: Cashfree order creation failed: IP address not allowed: 152.58.123.135 {"service":"pos-sathi"}
+2026-02-21 08:16:52 [error]: [PaymentCtrl] Create session error: Cashfree order creation failed: IP address not allowed: 152.58.123.135 {"service":"pos-sathi"}
+2026-02-21 08:17:11 [error]: [Cashfree] Order creation failed: {"service":"pos-sathi","status":403,"error":{"message":"IP address not allowed: 152.58.123.135","request_id":"dcdc1c138f224527b8955874945c2d29"}}
+2026-02-21 08:17:11 [error]: Payment session creation failed: Cashfree order creation failed: IP address not allowed: 152.58.123.135 {"service":"pos-sathi"}
+2026-02-21 08:17:11 [error]: [PaymentCtrl] Create session error: Cashfree order creation failed: IP address not allowed: 152.58.123.135 {"service":"pos-sathi"}
+2026-02-21 08:18:32 [error]: [Cashfree] Order creation failed: {"service":"pos-sathi","status":403,"error":{"message":"IP address not allowed: 152.58.123.135","request_id":"cb3aa632f77839641a8d1034b1935b11"}}
+2026-02-21 08:18:32 [error]: Payment session creation failed: Cashfree order creation failed: IP address not allowed: 152.58.123.135 {"service":"pos-sathi"}
+2026-02-21 08:18:32 [error]: [PaymentCtrl] Create session error: Cashfree order creation failed: IP address not allowed: 152.58.123.135 {"service":"pos-sathi"}
+2026-02-21 08:49:59 [error]: [Cashfree] Order creation failed: {"service":"pos-sathi","status":403,"error":{"request_id":"5ceb784bc9454d314814cc278c27db19","message":"IP address not allowed: 152.58.123.135"}}
+2026-02-21 08:49:59 [error]: Payment session creation failed: Cashfree order creation failed: IP address not allowed: 152.58.123.135 {"service":"pos-sathi"}
+2026-02-21 08:49:59 [error]: [PaymentCtrl] Create session error: Cashfree order creation failed: IP address not allowed: 152.58.123.135 {"service":"pos-sathi"}
+2026-02-21 17:31:45 [error]: [Cashfree] Order creation failed: {"service":"pos-sathi","status":403,"error":{"request_id":"514a644201f6cb5b2ddb0207fcf2bf09","message":"IP address not allowed: 152.58.123.135"}}
+2026-02-21 17:31:45 [error]: Payment session creation failed: Cashfree order creation failed: IP address not allowed: 152.58.123.135 {"service":"pos-sathi"}
+2026-02-21 17:31:45 [error]: [PaymentCtrl] Create session error: Cashfree order creation failed: IP address not allowed: 152.58.123.135 {"service":"pos-sathi"}
+2026-02-21 17:41:05 [error]: [Razorpay] Order creation failed: {"service":"pos-sathi","statusCode":401,"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2026-02-21 17:41:05 [error]: Payment session creation failed: Razorpay order creation failed: Authentication failed {"service":"pos-sathi"}
+2026-02-21 17:41:05 [error]: [PaymentCtrl] Create session error: Razorpay order creation failed: Authentication failed {"service":"pos-sathi"}
