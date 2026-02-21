@@ -130,8 +130,9 @@ app.use((_req, res) => {
 });
 
 // ─── Start Server ─────────────────────────────────────────
-httpServer.listen(config.port, '0.0.0.0', () => {
-    logger.info(`
+if (process.env.NODE_ENV !== 'production' || !process.env.VERCEL) {
+    httpServer.listen(config.port, '0.0.0.0', () => {
+        logger.info(`
   ╔══════════════════════════════════════════════╗
   ║           POS-SATHI Server Started           ║
   ║──────────────────────────────────────────────║
@@ -141,6 +142,7 @@ httpServer.listen(config.port, '0.0.0.0', () => {
   ║  WebSocket:   ws://localhost:${config.port}${' '.repeat(13)}║
   ╚══════════════════════════════════════════════╝
   `);
-});
+    });
+}
 
 export { app, httpServer, io };
